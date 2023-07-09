@@ -52,6 +52,9 @@ To contribute, follow these steps:
 4. Test your changes thoroughly.
 5. Submit a pull request with a detailed description of your changes and their purpose.
 
+### Database Setup and Access (Coming Soon)
+The database setup and access instructions will be added to this section as the project progresses (that is, the database doesn't exist yet lol). Stay tuned for updates!
+
 P.S. Please don't be limited to just technical contribution outlined by plan, any contributions(technical or non-technical) are welcome and appreciated! Create a issue and freely discuss it!   
 For eg, we can't have the name of the app to be 'Attendance verification app' right?... name suggestions are also welcome contributions :)
 ### Feedback and Support
