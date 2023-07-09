@@ -34,3 +34,26 @@
 - Implement mechanisms to detect and prevent misuse of the reappeal feature, such as analyzing patterns of reappeal requests or flagging suspicious activities.
 - Regularly review and audit reappeal requests to ensure compliance with guidelines and identify any potential misuse.
 - Enable professors to provide feedback or comments during the reappeal review process, facilitating clear communication and reducing the chances of misunderstandings or misuse.
+
+<details>
+  <summary><h2> A slightly more verbose explanation </summary>
+
+Implementing a separate user interface specifically dedicated to the reappeal process can provide a clear and organized way for students to view their absent classes, submit reappeals, and track the status of their appeals. Here's an expanded overview of how this separate UI for reappeals could be structured:
+
+1. Absent Classes Section:
+    - The UI will display a section that lists the classes for which the student was marked absent within the current or previous week.
+    - Each class session entry can include relevant details such as the course name, class date, and other necessary information.
+    - An associated reappeal button will be available for each absent class, allowing the student to initiate an appeal for that specific class session.
+2. Reappeal Submission:
+    - When a student clicks the reappeal button for a particular class session, a form or dialog will open to collect the necessary details for the appeal.
+    - The student can provide the reason for the absence, supporting documents if required, and any additional information requested.
+    - After submitting the reappeal form, the app captures the appeal details, including the class session information, reason, and supporting documents.
+3. Reappeal Status and Tracking:
+    - The UI will include a section where students can view the status and progress of their reappeals.
+    - Each reappeal entry will display relevant information such as the class session, the reason for the appeal, and the current status (e.g., pending, approved, denied).
+    - Students can track the progress of their appeals and receive notifications or updates regarding the outcomes of their requests.
+4. Notification and Updated Status:
+    - The app will notify students about the outcome of their reappeal request, indicating whether it was approved or denied.
+    - If the reappeal is approved, the attendance status for the specific class session will be updated in the database, marking the student as present.
+    - Students can view the updated attendance status and any changes made to their attendance records within the app.
+</details>
