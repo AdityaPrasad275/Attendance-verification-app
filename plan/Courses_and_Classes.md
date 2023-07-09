@@ -29,3 +29,32 @@
 - Implement functionality for professors to add extra classes, allowing flexibility in the schedule.
 - Include options for professors to cancel classes if necessary, with appropriate attendance implications.
 - Develop a feature that allows students to view all the classes they are enrolled in for the semester, providing an overview of their course schedule.
+
+
+<details>
+  <summary><h1>Slightly more verbose and indepth explanation</h1></summary>
+  
+1. Instructor's Perspective:
+    - Instructors will have access to a dedicated interface within the app to create and manage courses.
+    - Upon logging in, instructors can navigate to the course creation section.
+    - Instructors will input details such as course name, course ID, class timings, location, and other relevant information.
+    - After submitting the course creation form, the app will generate a unique course ID and store the course details in the database.
+    - Instructors can view and manage their courses, including adding or canceling classes within each course, through the instructor interface.
+    - When an instructor adds a new class to a course or cancels an existing class, the corresponding class session details are stored or removed from the "classes" table in the database.
+3. Student's Perspective:
+    - Students will have access to their own interface within the app to view and enroll in available courses.
+    - In the student interface, they can browse or search for courses and view their corresponding class schedules.
+    - Students can select the desired courses and enroll in them by adding them to their course list.
+    - When a student enrolls in a course, the app will associate the student ID with the corresponding course ID in the "enrollments" table in the database.
+    - Students will receive notifications or reminders for upcoming classes based on their enrolled courses.
+    - Within each enrolled course, students can view the class sessions and their respective details, such as date, time, location, and attendance status.
+4. Integration with the Database:
+    - The database will contain tables for "courses," "classes," "instructors," "students," and an "enrollments" relationship table.
+    - The "courses" table will store course information, including course name, course ID, and other relevant details.
+    - The "classes" table will store class session details, such as class date, time, location, and course ID as a foreign key.
+    - The "instructors" table will store instructor information, while the "students" table will store student information.
+    - The "enrollments" table will establish the association between students and courses by linking the student IDs with the corresponding course IDs.
+    - When an instructor creates a course, a new record is inserted into the "courses" table, and relevant information is updated in the "instructors" table.
+    - When an instructor adds or cancels a class within a course, the corresponding class session details are added or removed from the "classes" table.
+    - When a student enrolls in a course, a new record is inserted into the "enrollments" table, linking the student ID to the corresponding course ID.
+</details>
