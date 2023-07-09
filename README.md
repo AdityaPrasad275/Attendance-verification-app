@@ -17,7 +17,7 @@ The Attendance Verification App offers the following key features:
 - **Attendance Statistics and Reporting**: Professors can access comprehensive attendance statistics and generate reports to monitor student attendance and performance.
 - **Google Calendar Integration**: Seamlessly sync class schedules and events with Google Calendar for enhanced calendar management.
 
-Please refer to the detailed [plan](./plan) files for each feature to understand the goals and benefits they offer. These [plan](./plan) files are mainly oriented twoards technical contributors and provide a comprehensive overview of the features and their implementation details.
+Please refer to the detailed [plan](./plan) files for each feature to understand the goals and benefits they offer. These [plan](./plan) files are mainly oriented twoards technical contributors and provide a comprehensive overview of the features and their implementation details. A complete(slightly more indepth) overview can also be found [here](./plan/app.md)
 
 ### **Future Feature: Quizzes and Non-Attendance Requiring Classes**
 
